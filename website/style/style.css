@@ -1,0 +1,148 @@
+body,
+html {
+  height: 100%;
+}
+
+#SLIDE_BG {
+  width: 100%;
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  backface-visibility: hidden;
+  animation: slideBg 15s linear infinite 0s;
+  animation-timing-function: ease-in-out;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0),
+      rgba(8, 44, 80, 1)
+    ),
+    url("../assets/cl2.jpg");
+  background-attachment: fixed;
+}
+
+@keyframes slideBg {
+  0% {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0),
+        rgba(8, 44, 80, 1)
+      ),
+      url("../assets/slb.png");
+  }
+
+  20% {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0),
+        rgba(8, 44, 80, 1)
+      ),
+      url("../assets/cr7.png");
+  }
+
+  40% {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0),
+        rgba(8, 44, 80, 1)
+      ),
+      url("../assets/robben.jpg");
+  }
+
+  60% {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0),
+        rgba(8, 44, 80, 1)
+      ),
+      url("../assets/tottenham3.jpg");
+  }
+
+  80% {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0),
+        rgba(8, 44, 80, 1)
+      ),
+      url("../assets/liverpool.jpg");
+  }
+
+  100% {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0),
+        rgba(8, 44, 80, 1)
+      ),
+      url("../assets/slb.png");
+  }
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  opacity: 1;
+}
+
+.cardEquipa {
+  background: #082c50;
+  border: 2px solid white;
+  border-radius: 5%;
+  width: 250px;
+  height: 310px;
+}
+
+.nomeEquipa {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  color: white;
+}
+
+.card {
+  margin: 0 auto;
+  float: none;
+}
+
+.cardInsere {
+  background-color: rgba(8, 44, 80, 0.7);
+  color: white;
+}
+
+.center {
+  text-align: center;
+  clear: both;
+  display: block;
+  margin: 20px;
+}
+
+.overflow-hide {
+  overflow: hidden;
+}
+
+.imgTeams {
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  border-color: #00008b;
+  padding: 10px;
+}
+
+.expand {
+  position: relative;
+}
+
+.encolher {
+  position: relative;
+}
